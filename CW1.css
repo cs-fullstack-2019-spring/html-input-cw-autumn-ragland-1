@@ -1,0 +1,38 @@
+/*set body within a margin and change font and background*/
+body{
+    margin: 10%;
+    font-family: Verdana, Geneva, sans-serif;
+    background: rgba(0, 0, 255, 0.51);
+}
+/*change font color and underline header*/
+header{
+    color: white;
+    text-decoration: purple underline;
+}
+/*give all input text boxes the same height and spacing and border*/
+input{
+    height: 30px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.51);
+    border-radius: 5px;
+}
+/*make section text white*/
+section{
+    color: white;
+}
+/*sign up button dimmensions and spacing*/
+button{
+    margin-top: 10%;
+    height: 50px;
+    width: 100%;
+    color: white;
+    background: blue;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+/*already a member link stying*/
+footer{
+    margin-top: 10%;
+    text-align: center;
+    color: gray;
+}
