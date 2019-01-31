@@ -5,13 +5,11 @@ p{
 /*float login to the left*/
 .floatleft{
     float: left;
-    width: 49%;
+    width: 50%;
     margin: 0;
     text-align: center;
-    height: 50px;
+    height: 80px;
     background: lightgray;
-    border: 1px solid lightgray;
-    padding: 2.5px;
 }
 /*float sign up to the right*/
 .floatright{
@@ -19,14 +17,15 @@ p{
     width: 49%;
     margin: 0 ;
     text-align: center;
-    height: 50px;
-    border: 1px dashed black;
-    padding: 2.5px;
+    height: 80px;
+    border: 1px dotted black;
 }
 /*text box*/
 article{
     clear: both;
-    border: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
     margin: 0 ;
     padding: 5px;
     text-align: center;
@@ -34,7 +33,9 @@ article{
 }
 /*email line*/
 section{
-    border: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
     margin: 0;
     padding: 5px;
 }
@@ -47,18 +48,21 @@ input{
     float: left;
     width: 49%;
     margin: 0 ;
-    border: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
     height: 80px;
-    padding: 2.5px;
+    padding: 1px;
 
 }
 /*float confirmation to the right*/
 .floatright2{
     float: right;
-    width: 49%;
+    width: 50%;
     margin: 0 ;
-    border: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
     height: 80px;
-    padding: 2.5px;
+    padding: 1px;
 }
 
